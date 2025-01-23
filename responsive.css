@@ -1,0 +1,287 @@
+@media (max-width: 1020px) {
+  #home-left h1 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 900px) {
+  #home-left h1 {
+    font-size: 60px;
+  }
+
+  #developer {
+    font-size: 17px;
+  }
+
+  #about-info {
+    padding: 20px;
+    gap: 10px;
+  }
+
+  #about-info p {
+    letter-spacing: 0.15px;
+    font-size: 15.5px;
+  }
+
+  #about-info h4 {
+    font-size: 25px;
+    margin: 15px 0;
+  }
+
+  #about-info button {
+    border-style: none;
+    padding: 12px 20px;
+    margin: 20px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #7453fe;
+    color: white;
+    border: 2px solid #7453fe;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  #services-text {
+    width: 75%;
+    letter-spacing: 0.25px;
+    font-size: 16px;
+  }
+
+  #projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 0;
+  }
+
+  .project {
+    width: 95%;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .project-text {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .project-text p {
+    font-size: 15.5px;
+  }
+
+  .project-text h3 {
+    font-size: 25px;
+  }
+
+  .check-project {
+    font-size: 15.5px;
+  }
+
+  #menu-open {
+    display: block;
+    position: absolute;
+    right: 25px;
+  }
+
+  nav ul {
+    display: none;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 100vh;
+    width: 40%;
+    padding: 80px 0;
+    transition: right 0.5s ease-in-out;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    backdrop-filter: blur(5px);
+  }
+
+  body.dark-theme nav ul {
+    background-color: rgb(22, 27, 34, 0.8);
+  }
+
+  nav ul li {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+
+  #menu-close {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 720px) {
+  header {
+    padding: 20px 30px;
+  }
+  #home-left h1 {
+    font-size: 50px;
+  }
+
+  #about-info {
+    padding: 10px;
+    gap: 7px;
+    width: 100%;
+  }
+
+  #about-info p {
+    font-size: 15px;
+  }
+
+  #about-info h4 {
+    font-size: 23px;
+  }
+
+  #about-info button {
+    margin: 15px 0;
+    font-size: 15px;
+  }
+
+  #about-container {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  #about-pic {
+    width: 100%;
+    height: 260px;
+    margin-bottom: 30px;
+  }
+
+  #about-info button {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .project {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .project-reverse{
+    flex-direction: column-reverse;
+  }
+
+  .project-text {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .project-text p {
+    font-size: 15.5px;
+  }
+
+  .project-text h3 {
+    font-size: 25px;
+  }
+
+  .project-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #services-text {
+    width: 85%;
+    font-size: 15.5px;
+  }
+}
+
+@media (max-width: 650px) {
+  #home-left h1 {
+    font-size: 47px;
+  }
+
+  #developer {
+    font-size: 16px;
+  }
+
+  nav ul {
+    width: 80%;
+  }
+}
+
+@media (max-width: 610px) {
+  #home {
+    flex-direction: column;
+    height: fit-content;
+    padding-top: 150px;
+  }
+  #home-left {
+    width: 100%;
+    z-index: 50;
+  }
+
+  #home-left h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  #home-right {
+    width: 100%;
+  }
+  #triangle {
+    top: -60%;
+    height: 100px;
+  }
+}
+
+@media (max-width: 550px) {
+  #home-left {
+    width: 100%;
+    z-index: 50;
+  }
+
+  #home-left h1 {
+    font-size: 60px;
+  }
+
+  #developer {
+    font-size: 15px;
+  }
+
+  #home-right {
+    width: 100%;
+  }
+
+  #services-text {
+    width: 92%;
+    font-size: 15px;
+  }
+
+  #about-container {
+    width: 95%;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 475px) {
+  #home-left h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  #home-left h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 360px) {
+  #home-left h1 {
+    font-size: 40px;
+  }
+}

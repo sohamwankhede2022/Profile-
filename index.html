@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - aitezazdev</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <h2 style="font-size: 27px">
+        <a href="#home" id="zaz">Weoffer</a>
+      </h2>
+      <nav>
+        <ul>
+          <li><a href="#home" class="links">Home</a></li>
+          <li><a href="#about" class="links">About</a></li>
+          <li><a href="#services" class="links">Services</a></li>
+          <li><a href="#projects" class="links">Projects</a></li>
+          <li><a href="#contact" class="links">Contact</a></li>
+          <i class="fa-solid fa-lightbulb links" id="bulb"></i>
+        </ul>
+      </nav>
+      <i class="fa-solid fa-bars" id="menu-open"></i>
+      <i class="fa-solid fa-xmark" id="menu-close"></i>
+    </header>
+
+    <!-- Main Home Section -->
+    <section id="home">
+      <div id="home-left">
+        <div id="triangle">
+          <img src="./Images/triangle.svg" alt="triangle" />
+        </div>
+        <div>
+          <p style="margin: 3px 10px; font-size: 17px" id="iAm">Hey, I'm</p>
+          <h1>Soham Wankhede</h1>
+          <p id="developer">Frontend Web Developer, where creativity meets code.</p>
+        </div>
+        <div style="display: flex; gap: 20px">
+          <button id="portfolio" onclick="location.href='#projects'">My Work</button>
+          <button onclick="location.href='#contact'">Reach Out</button>
+        </div>
+      </div>
+      <div id="home-right">
+        <div id="home-right-img">
+          <img src="./Images/home.png" alt="main-background" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div id="about-container">
+        <div id="about-pic">
+          <img src="./Images/about.svg" alt="about me" />
+        </div>
+        <div id="about-info">
+          <h2 id="about-me">About Me</h2>
+          <h4>Front-End Developer</h4>
+          <p>
+            Hey! I’m
+            <span style="color: #7453fe; font-weight: 500; font-size: 17.5px;"
+              >Aitezaz Sikandar Khan</span
+            >, a 5th-semester BS Computer Science student at the University of
+            Peshawar. My passion? Creating sleek, responsive websites and
+            innovative mobile apps that not only look good but function even
+            better. <br /><br />
+            Alongside my studies, I’m leveling up my dev skills at SMIT, where
+            I’m diving deep into web and mobile app development, exploring the
+            latest frameworks and technologies.
+          </p>
+          <a style="text-decoration: none; color: #7453fe;" href="./Images/resume.jpg" download><button>My Resume</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <h2 class="h2">Services</h2>
+      <p id="services-text">
+        As a dedicated web developer, I take pride in delivering dynamic,
+        visually engaging, and technically sound web solutions. My expertise
+        spans across responsive design, ensuring your website looks great on any
+        device, and writing clean, efficient code that guarantees long-term
+        performance and scalability. Whether it's building a captivating online
+        presence or creating a seamless user experience, I focus on every detail
+        to bring your vision to life. My approach is simple: I combine
+        creativity with precision to deliver results that not only meet but
+        exceed your expectations.
+      </p>
+      <div id="cards">
+        <div class="card">
+          <div class="card-img">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            Crafting visually stunning websites with cutting-edge technologies
+            to elevate your online presence and captivate your audience.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <i class="fa-solid fa-mobile-screen"></i>
+          </div>
+          <h3>Responsive Design</h3>
+          <p>
+            Designing sleek and intuitive interfaces that seamlessly adapt to
+            any device, ensuring an unparalleled user experience across
+            platforms.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3>Clean Code</h3>
+          <p>
+            Developing robust and maintainable codebases that prioritize
+            efficiency, scalability, and security, laying the foundation for
+            your digital success.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" style="margin-top: 100px">
+      <h2 class="h2">Projects</h2>
+      <div id="projects-container">
+        <div class="project">
+          <div class="project-text">
+            <h3>Coffee Shop</h3>
+            <p>
+              A clean and responsive website for a local coffee shop, showcasing
+              their menu, services, and contact information. Built using HTML
+              and CSS, the design focuses on an elegant, minimalistic layout to
+              provide users with a smooth and engaging browsing experience.
+            </p>
+            <button class="check-project" onclick="window.open('https://aitezazdev.github.io/task06-html-css-responsive-COFFEE-SHOP-website/', '_blank')">Check It Out</button>
+          </div>
+          <div class="project-img">
+            <img src="./Images/Projects/coffee-shop.png" alt="coffee shop" />
+          </div>
+        </div>
+        <div class="project project-reverse">
+          <div class="project-img">
+            <img src="./Images/Projects/quiz-game.png" alt="quiz game" />
+          </div>
+          <div class="project-text">
+            <h3>Quiz Game</h3>
+            <p>
+              An interactive quiz game developed with HTML, CSS, and JavaScript.
+              This project features dynamic question generation, real-time score
+              tracking, and smooth transitions between questions, providing an
+              engaging user experience for trivia enthusiasts.
+            </p>
+            <button class="check-project" onclick="window.open('https://aitezazdev.github.io/classTask003-Interactive-Quiz-Game/', '_blank')">Check It Out</button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-text">
+            <h3>Product Catalogue</h3>
+            <p>
+              A responsive product catalogue designed to showcase various
+              electronics, using HTML and CSS. The design ensures seamless
+              browsing across different devices, with an intuitive layout that
+              highlights product details and pricing.
+            </p>
+            <button class="check-project" onclick="window.open('https://aitezazdev.github.io/task05-html-css-responsive-product-catalogue-website/', '_blank')">Check It Out</button>
+          </div>
+          <div class="project-img">
+            <img src="./Images/Projects/phone-shop.png" alt="products" />
+          </div>
+        </div>
+        <div class="project project-reverse">
+          <div class="project-img">
+            <img src="./Images/Projects/todo-list.png" alt="todo list app" />
+          </div>
+          <div class="project-text">
+            <h3>Todo List App</h3>
+            <p>
+              A simple yet functional Todo List App created using HTML, CSS, and JavaScript.
+              This project enables users to efficiently add, delete, and manage tasks, with
+              a clean interface that enhances productivity and organization.
+            </p>
+            <button class="check-project" onclick="window.open('https://aitezazdev.github.io/todo-list-app-in-javascript/', '_blank')">Check It Out</button>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="h2">Contact</h2>
+      <div id="contacts">
+        <div class="contact-info">
+          <div class="contact-img">
+            <i class="fa-solid fa-phone text-2xl"></i>
+          </div>
+          <div class="contact-real">
+            <h4>Phone</h4>
+            <p>+91 9898989898</p>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-img">
+            <i class="fa-regular fa-envelope text-2xl"></i>
+          </div>
+          <div class="contact-real">
+            <h4>Email</h4>
+            <p>sohamwankhede2022@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-img">
+            <i class="fa-solid fa-location-dot text-2xl"></i>
+          </div>
+          <div class="contact-real">
+            <h4>Address</h4>
+            <p>Laxmi Nivas Nathan Road Pune </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div id="footer-info">
+        <strong style="font-size: 1.5em;">Crafted by Soham</strong>
+        <div id="social-icons">
+          <a href="www.linkedin.com/in/soham-wankhede-tech" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/sohamwankhede2022" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+          <a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+      <p style="font-size: 17px">
+        Copyright &copy; 2025 <strong>Soham Wankhede</strong> Some Rights Reserved.
+      </p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
